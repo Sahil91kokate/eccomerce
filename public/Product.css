@@ -1,0 +1,258 @@
+@media (max-width: 767px) {
+    .menu-bar-container {
+        overflow-x: auto;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+
+    .menu-bar {
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    .menu-item {
+        display: inline-block;
+        padding: 8px 12px;
+        text-decoration: none;
+        color: #333;
+        border-radius: 15px;
+        margin-right: 8px;
+        background-color: #f4f4f4;
+        transition: background-color 0.3s ease;
+        font-size: 12px;
+        border: 1px solid black;
+    }
+
+    .menu-item:hover {
+        background-color: #ddd;
+    }
+
+    .menu-bar-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .menu-bar-container::-webkit-scrollbar-track {
+        background: none;
+    }
+
+    @media (min-width: 992px) {
+        .d-lg-none {
+            display: none !important;
+        }
+    }
+}
+
+.custom-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-navigation {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hide-desktop {
+        display: none !important;
+    }
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+@media (max-width: 768px) {
+    .bottom-navigation {
+        display: flex;
+    }
+}
+
+.preference-icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.size-selection-wrapper {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.product-img:hover .size-selection-wrapper {
+    display: block;
+}
+
+
+.size-selection {
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.size-selection button {
+    margin: 5px;
+}
+
+.preference-icon {
+    font-size: 24px;   
+    color: #333;
+}
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    transition: right 0.3s ease;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar.active {
+    right: 0;
+}
+.sidebar-toggle-btn {
+    position: absolute;
+    right: 10px;
+    z-index: 1000;
+
+}
+
+.sort-by {
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sort-by h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+.sort-keywords {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sort-keywords li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.heading-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Heading Styles */
+.heading-wrapper h6 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.sort-keyword {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: #444;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sidebar {
+   
+    z-index: 1000;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #888;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* .close-btn:hover {
+    color: #333;
+} */
+
+/* Adjust positioning of the product items */
+.product-item {
+    position: relative;
+    z-index: 1;
+    /* Set a lower z-index value than the sidebar */
+}
+
+.size-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.size-header {
+    background-color: #f9f9f9;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.size-options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    /* border: 1px solid #ccc; */
+    min-width: 80px;
+    z-index: 1;
+}
+
+.size-options li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .css .col-lg-8, .col-md-8 {
+        display: none;
+    }
+}

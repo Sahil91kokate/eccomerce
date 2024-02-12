@@ -1,0 +1,77 @@
+.custom-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Basic styles for bottom navigation */
+.bottom-navigation {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hide-desktop {
+        display: none !important;
+    }
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+@media (max-width: 767px) {
+.form-inline .form-control {
+width: 100%;
+}
+}
+
+@media (min-width: 768px) {
+.form-inline .form-control {
+width: 700px;
+}
+}
+/* Style the carousel container */
+.carousel-item {
+position: relative;
+}
+
+/* Add parallax effect to the background images */
+.carousel-item img {
+width: 100%;
+height: auto;
+position: absolute;
+top: 0;
+left: 0;
+transform: translate3d(0, 0, 0);
+}
+
+/* Adjust the depth/speed of parallax effect */
+.carousel-item:nth-child(odd) img {
+z-index: -1; /* Set a negative z-index for alternate images */
+}
+
+/* Adjust the parallax effect as needed */
+.carousel-item img {
+transition: transform 0.4s ease-out;
+}
+
+
+/* .nav-item:hover {
+    background-color: #555;
+} */
+
+@media (max-width: 768px) {
+    .bottom-navigation {
+        display: flex;
+        /* Display the navigation on mobile devices */
+    }
+}

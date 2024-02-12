@@ -1,0 +1,138 @@
+/* MyAccount.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .tab:hover {
+    background-color: #e0e0e0;
+  }
+
+  #myProfile {
+    /* Add specific styles for the My Profile tab content if needed */
+  }
+  
+  .profile-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+  }
+  
+  .profile-item {
+    margin-bottom: 10px;
+  }
+  
+  .tab.active {
+    background-color: #e0e0e0;
+  }
+  
+.profile-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .profile-item strong {
+    margin-right: 10px;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-md-6 {
+    max-width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .product-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+
+  .product-info {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .new-address {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .address-details {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .address-actions button {
+    margin-top: 5px;
+  }
+  
+  
+  h4 {
+    color: #333;
+  }
+
+  p {
+    color: #666;
+  }
+
+  /* Style the refund status section separately */
+  .refund-status {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
